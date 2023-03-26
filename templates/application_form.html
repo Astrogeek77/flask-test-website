@@ -1,31 +1,31 @@
 <h4>Application Form</h4>
-<form action="/job/{{job['id']}}/apply" method="post">
-  <div class="mb-2">
+<form action="/job/{{job['id']}}/apply" class="w-full" method="post">
+  <div class="mb-2 w-full">
   <label>Full Name</label><br>
-  <input type="text" required name="full_name" placeholder="Bruce Wayne">
+  <input class="w-full" type="text" required name="full_name" placeholder="Bruce Wayne">
   </div>
 
-  <div class="mb-2">
+  <div class="mb-2 w-full">
   <label>Email</label><br>
-  <input type="email" required name="email" placeholder="bruce@wayne.com">
+  <input class="w-full" type="email" required name="email" placeholder="bruce@wayne.com">
   </div>
 
-  <div class="mb-2">
+  <div class="mb-2 w-full">
   <label>LinkedIn URL</label><br>
-  <input type="url" name="linkedin_url" placeholder="https://linked.com/in/brucewayne">
+  <input class="w-full" type="url" name="linkedin_url" placeholder="https://linked.com/in/brucewayne">
   </div>
 
-  <div class="mb-2">
+  <div class="mb-2 w-full">
     <label>Education</label><br>
-    <textarea name="education"></textarea>
+    <textarea class="w-full" name="education"></textarea>
   </div>
 
-  <div class="mb-2">
+  <div class="mb-2 w-full">
     <label>Work Experience</label><br>
-    <textarea name="work_experience"></textarea>
+    <textarea class="w-full" name="work_experience"></textarea>
   </div>
 
-  <div class="mb-2">
+  <div class="mb-2 w-full">
   <label>Resume URL</label><br>
   <input type="url" name="resume_url">
   </div>
